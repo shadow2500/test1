@@ -1,3 +1,15 @@
 .w_100{
     width: 100% !important;
 }
+.border-img{
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    
+}
+.shadow{
+    filter: drop-shadow(2px 4px 6px rgb(0, 183, 255));
+    -webkit-filter: drop-shadow(2px 4px 6px rgb(0, 183, 255));
+}
