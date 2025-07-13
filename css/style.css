@@ -19,3 +19,18 @@
     align-items: center !important;
 }
 }
+
+
+
+.users_list_item.active .user_list_Arrow_icon{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.users_list_item.active , .user_list_item.active .collapsible-header{
+    background-color: rgba(182, 182, 182, 0.26);
+
+}
