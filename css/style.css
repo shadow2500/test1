@@ -9,7 +9,13 @@
     -o-border-radius: 10%;
     
 }
-.shadow{
-    filter: drop-shadow(2px 4px 6px rgb(0, 183, 255));
-    -webkit-filter: drop-shadow(2px 4px 6px rgb(0, 183, 255));
+@media(min-width:600px){
+    .top_navbar{
+    box-shadow: 0 0 50px gray !important;
+}
+
+#top_actions_section{
+    display: flex !important;
+    align-items: center !important;
+}
 }
