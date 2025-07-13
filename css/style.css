@@ -34,3 +34,9 @@
     background-color: rgba(182, 182, 182, 0.26);
 
 }
+table.highlight > tbody > tr:hover{
+    background-color: rgba(8, 117, 241, 0.534);
+}
+.container{
+    width: 100% !important;
+}
